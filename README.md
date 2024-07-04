@@ -19,7 +19,7 @@ You need to create an endpoint that can be queried to get insights into a GitHub
 
 - **Top 3 most used programming languages:** Determine the most common languages used across the user's repositories.
 - **Repositories with the most merged pull requests:** Identify the repositories where the user has had the most pull requests accepted.
-- **Contributions in the last 6 months:** Count the total number of pull requests, issues, and commits the user has made in the last 6 months.
+- **Contributions in the last 6 months:** Count the total number of pull requests, issues, and commits the user has made in the last 6 months, and display these numbers month by month in an array.
 - **Days and time slots of highest activity:** Analyze the user's events to determine the days of the week and time slots (morning, afternoon, evening) when the user is most active.
 
 > The endpoint should be structured as follows: `GET /user-insights/:username`
