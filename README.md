@@ -6,14 +6,14 @@ Evaluate the technical skills of the candidate in backend development, reusable 
 ## General Instructions
 - You can use any backend programming language you are comfortable with (e.g., Node.js, Python, Java, etc.).
 - You may use GitHub API integration either via REST or GraphQL, but the output API must be REST.
-- Document your code and add explanatory comments where necessary.
+- Your code needs to be documented and explaines where necessary.
 - Include a `README.md` file with instructions on how to run your solution and any important details.
 
 ## Challenge Description
 
 Imagine that you are part of a fictional company that is building an advanced analytics platform for developers' GitHub profiles. Your task is to create a system that can extract meaningful insights from a user's GitHub profile. By evaluating their open-source contributions, your system will provide valuable information about their coding practices, preferred languages, and overall activity.
 
-### Part1: RESTful API and Data Processing
+### Part 1: RESTful API and Data Processing
 
 You need to create an endpoint that can be queried to get insights into a GitHub profile by passing the GitHub username as a parameter. This endpoint will retrieve detailed insights from a specific GitHub user's profile. The response should include the following information:
 
@@ -24,16 +24,16 @@ You need to create an endpoint that can be queried to get insights into a GitHub
 
 > The endpoint should be structured as follows: `GET /user-insights/:username`
 
-### Part2: Integration and Rate Limit Handling
+### Part 2: Integration and Rate Limit Handling
 
 - Use the GitHub API to implement the operations needed for the insights. Authentication using OAuth or personal tokens may be required.
 - Ensure you handle GitHub's rate limits appropriately. Your API should be able to handle rate limit errors and implement a retry logic with exponential backoff.
 
-### Part3: Open/Closed Principle (OCP)
+### Part 3: Open/Closed Principle (OCP)
 
 - Structure your code in a way that makes it easy to include new metrics in the future without modifying existing code. This means that if a new metric is required in the future, a new programmer should be able to add it through extension rather than modification.
 
-### Part4: Documentation and Tests
+### Part 4: Documentation and Tests
 
 - Use Swagger or a similar tool to document your API.
 - Include a brief explanation of each endpoint and the possible response codes.
