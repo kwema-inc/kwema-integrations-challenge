@@ -4,7 +4,7 @@
 Evaluate the technical skills of the candidate in backend development, reusable code creation, technical documentation interpretation, rate limit handling, and  data processing using third-party integrations.
 
 ## General Instructions
-- You can use any backend programming language you are comfortable with (e.g., Node.js, Python, Java, etc.).
+- Use Python.
 - You may use GitHub API integration either via REST or GraphQL, but the output API must be REST.
 - Your code needs to be documented and explaines where necessary.
 - Include a `README.md` file with instructions on how to run your solution and any important details.
